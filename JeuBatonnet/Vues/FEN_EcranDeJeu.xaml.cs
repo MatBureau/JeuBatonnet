@@ -50,6 +50,7 @@ namespace JeuBatonnet.Vues
                         Height = 30,
                         Margin = new Thickness(5)
                     };
+                    nouveauBouton.Click += NouveauBoutonClick;
                     Stack1.Children.Add(nouveauBouton);
                 }
                 else
@@ -61,24 +62,19 @@ namespace JeuBatonnet.Vues
                         Height = 30,
                         Margin = new Thickness(5)
                     };
+                    nouveauBouton.Click += NouveauBoutonClick;
                     Stack2.Children.Add(nouveauBouton);
                 }
             }
         }
 
-        private void Row_one_btn_Click(object sender, RoutedEventArgs e)
+        private void NouveauBoutonClick(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Row_three_btn_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Row_two_btn_Click(object sender, RoutedEventArgs e)
-        {
-
+            Button boutonClique = sender as Button;
+            if (boutonClique != null)
+            {
+                boutonClique.Visibility = Visibility.Hidden;
+            }
         }
 
         private void EndTurn_btn_Click(object sender, RoutedEventArgs e)
