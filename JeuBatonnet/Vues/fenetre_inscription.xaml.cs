@@ -37,6 +37,11 @@ namespace JeuBatonnet.Vues
             string motDePasse = TBX_Mdp.Password;
 
             // Ajoutez ici la logique de validation des données
+            if (motDePasse.Length < 6) // Exemple : exige au moins 6 caractères
+    {
+        MessageBox.Show("Le mot de passe doit contenir au moins 6 caractères.");
+        return;
+    }
 
             // Exemple simple : vérification si les champs ne sont pas vides
             if (string.IsNullOrEmpty(nom) || string.IsNullOrEmpty(prenom) || string.IsNullOrEmpty(pseudo) ||
@@ -68,5 +73,8 @@ namespace JeuBatonnet.Vues
             loginWindow.Show();
             this.Close();
         }
+
+
+
     }
 }
