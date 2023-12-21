@@ -63,3 +63,9 @@ D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\refint\Jeu
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet.pdb
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet.genruntimeconfig.cache
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\ref\JeuBatonnet.dll
+D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\Login.g.cs
+D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\MaterialDesignColors.dll
+D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\App.baml
+D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\Login.baml
