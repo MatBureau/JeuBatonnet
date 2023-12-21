@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\
+C:\Users\franc\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\
 JeuBatonnet
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\App.xaml
-11407045341
+C:\Users\franc\Documents\GitHub\JeuBatonnet\JeuBatonnet\App.xaml
+2-697308182
 
-10-1653665423
-22647130508
-MainWindow.xaml;
+12-831939163
+226383853409
+MainWindow.xaml;Vues\fenetre_inscription.xaml;
 
-False
+True
 

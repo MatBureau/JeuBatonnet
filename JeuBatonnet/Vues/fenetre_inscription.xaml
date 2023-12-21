@@ -1,0 +1,30 @@
+﻿<Window x:Class="JeuBatonnet.Vues.fenetre_inscription"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JeuBatonnet.Vues"
+        mc:Ignorable="d"
+        Title="fenetre_inscription" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="152*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="TBX_Prenom" HorizontalAlignment="Left" Margin="150,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="22"/>
+        <Label Content="Prénom" HorizontalAlignment="Left" Margin="64,34,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Margin="67,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.347,0.448"/>
+        <Label Content="Pseudo" HorizontalAlignment="Left" Margin="66,3,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.468,-0.118" Grid.Row="1"/>
+        <Label Content="Numéro de&#xA; téléphone" HorizontalAlignment="Left" Margin="50,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.036,0.402" Grid.Row="1"/>
+        <Label Content="Mot de passe" HorizontalAlignment="Left" Margin="32,220,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBox x:Name="TBX_Nom" HorizontalAlignment="Left" Margin="150,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="22"/>
+        <TextBox x:Name="TBX_Naissance" HorizontalAlignment="Left" Margin="150,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="22" Grid.Row="1"/>
+        <TextBox x:Name="TBX_Telephone" HorizontalAlignment="Left" Margin="150,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="22" Grid.Row="1"/>
+        <Button x:Name="BTN_Inscription" Content="INSCRIPTION&#xA;" HorizontalAlignment="Left" Margin="326,0,0,0" VerticalAlignment="Top" Height="434" Width="474" Grid.RowSpan="2" Click="BTN_Inscription_Click"/>
+        <TextBox x:Name="TBX_Pseudo" HorizontalAlignment="Left" Margin="150,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="22" Grid.Row="1"/>
+        <TextBox x:Name="TBX_Mail" HorizontalAlignment="Left" Margin="150,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="22" Grid.Row="1"/>
+        <Label Content="Date de naissance" HorizontalAlignment="Left" Margin="32,117,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.468,-0.118" Grid.Row="1"/>
+        <Label Content="Adresse Mail" HorizontalAlignment="Left" Margin="52,63,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.468,-0.118" Grid.Row="1"/>
+        <PasswordBox x:Name="TBX_Mdp" Margin="150,221,479,49" Grid.Row="1"/>
+    </Grid>
+</Window>

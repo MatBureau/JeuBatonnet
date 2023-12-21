@@ -2885,24 +2885,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mathi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\franc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathi\\Documents\\GitHub\\JeuBatonnet\\JeuBatonnet\\JeuBatonnet.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\Documents\\GitHub\\JeuBatonnet\\JeuBatonnet\\JeuBatonnet.csproj",
       "projectName": "JeuBatonnet",
-      "projectPath": "C:\\Users\\mathi\\Documents\\GitHub\\JeuBatonnet\\JeuBatonnet\\JeuBatonnet.csproj",
-      "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathi\\Documents\\GitHub\\JeuBatonnet\\JeuBatonnet\\obj\\",
+      "projectPath": "C:\\Users\\franc\\Documents\\GitHub\\JeuBatonnet\\JeuBatonnet\\JeuBatonnet.csproj",
+      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\franc\\Documents\\GitHub\\JeuBatonnet\\JeuBatonnet\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2910,7 +2905,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2965,7 +2959,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
