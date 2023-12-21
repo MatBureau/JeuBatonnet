@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JeuBatonnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a85deb3972b17bc06e742498df36c618dc7ddcdc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeuBatonnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeuBatonnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

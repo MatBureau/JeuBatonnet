@@ -112,7 +112,7 @@ namespace JeuBatonnet.Vues {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JeuBatonnet;component/vues/login.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JeuBatonnet;V1.0.0.0;component/vues/login.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Vues\Login.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -125,7 +125,7 @@ namespace JeuBatonnet.Vues {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JeuBatonnet;component/vues/fen_ecrandejeu.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JeuBatonnet;V1.0.0.0;component/vues/fen_ecrandejeu.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Vues\FEN_EcranDeJeu.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
