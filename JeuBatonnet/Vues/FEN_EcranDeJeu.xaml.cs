@@ -1,4 +1,5 @@
-﻿using JeuBatonnet.Models;
+﻿using JeuBatonnet.DAL;
+using JeuBatonnet.Models;
 using JeuBatonnet.Utils;
 using System;
 using System.Collections.Generic;
@@ -22,10 +23,13 @@ namespace JeuBatonnet.Vues
     public partial class FEN_EcranDeJeu : Window
     {
         public Partie PartieEnCours { get; set; }
+        public int Compteur { get; set; }
         public FEN_EcranDeJeu(Partie p_partie)
         {
             InitializeComponent();
             PartieEnCours = p_partie;
+            PartieEnCours.Joueur1 = JoueurService.GetJoueurByID(PartieEnCours.Joueur1Id);
+            PartieEnCours.Joueur2 = JoueurService.GetJoueurByID((int)PartieEnCours.Joueur2Id);
             CreerBoutonsDansStackPanel(PartieEnCours.NbBatonnet);
             if(PartieEnCours.TourJoueurId == VariablesGlobales.Joueur.JoueurId)
             {
@@ -71,15 +75,39 @@ namespace JeuBatonnet.Vues
         private void NouveauBoutonClick(object sender, RoutedEventArgs e)
         {
             Button boutonClique = sender as Button;
-            if (boutonClique != null)
+            if (boutonClique != null && Compteur < 3)
             {
-                boutonClique.Visibility = Visibility.Hidden;
+                if(PartieEnCours.TourJoueurId == VariablesGlobales.Joueur.JoueurId)
+                {
+                    boutonClique.Visibility = Visibility.Hidden;
+                    Compteur++;
+                }
+                else
+                {
+                    MessageBox.Show("Attendez votre tour");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vous ne pouvez pas enlever plus de batonnets, veuillez finir votre tour.");
             }
         }
 
         private void EndTurn_btn_Click(object sender, RoutedEventArgs e)
         {
-
+            CoupJoue cj = new CoupJoue();
+            cj.PartieId = PartieEnCours.PartieId;
+            cj.JoueurId = (int)PartieEnCours.TourJoueurId;
+            cj.NbBatonnetRetire = Compteur;
+            cj.CoupId = CoupJoueService.AddCoupJoue(cj);
+            if (PartieEnCours.TourJoueurId == PartieEnCours.Joueur1.JoueurId)
+            {
+                PartieEnCours.TourJoueurId = PartieEnCours.Joueur2.JoueurId;
+            }
+            else
+            {
+                PartieEnCours.TourJoueurId = PartieEnCours.Joueur1.JoueurId;
+            }
         }
     }
 }

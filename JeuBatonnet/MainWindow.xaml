@@ -9,7 +9,7 @@
         Title="MainWindow" Height="267" Width="374" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="SingleBorderWindow">
     <Grid>
         <Button x:Name="BTN_SearchGame" Content="Rechercher" HorizontalAlignment="Center" Margin="0,115,0,0" VerticalAlignment="Top" Height="41" Width="202" Click="BTN_SearchGame_Click"/>
-        <TextBox x:Name="TBX_CodePartie" HorizontalAlignment="Center" Margin="0,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
+        <TextBox x:Name="TBX_CodePartie" HorizontalAlignment="Center" Margin="0,85,0,0" BorderThickness="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
         <Label Content="Recherche une partie par code :" HorizontalAlignment="Left" Margin="101,61,0,0" VerticalAlignment="Top"/>
         <Button x:Name="BTN_CreateGame" Content="Créer une partie" HorizontalAlignment="Center" Margin="0,167,0,0" VerticalAlignment="Top" Height="41" Width="202" Click="BTN_CreateGame_Click"/>
     </Grid>
