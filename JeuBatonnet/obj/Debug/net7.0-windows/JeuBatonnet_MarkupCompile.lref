@@ -1,7 +1,13 @@
 ﻿
+<<<<<<< HEAD
 FC:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\App.xaml;;
 FC:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\MainWindow.xaml;;
 FC:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\Vues\FEN_EcranDeJeu.xaml;;
 FC:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\Vues\FEN_SalleAttente.xaml;;
 FC:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\Vues\Login.xaml;;
+=======
+FD:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\App.xaml;;
+FD:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\MainWindow.xaml;;
+FD:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\Vues\Login.xaml;;
+>>>>>>> feat_Connection
 

@@ -17,19 +17,20 @@
             <StackPanel>
 
 
-                <Image Margin="0,60,0,5" Source="..\Assets\Images\logo.png" Height="100"></Image>
+                <Button x:Name="btn_exit" Content="X" Width="56" HorizontalAlignment="Right" Click="btn_exit_Click"/>
+                <Image x:Name="img_logo" Source="..\Assets\Images\logo.png" Height="150"/>
 
-                <TextBlock Margin="0,25,0,5" HorizontalAlignment="Center" FontSize="28" FontWeight="Bold" Text="Welcome Back!" />
+                <TextBlock Margin="0,25,0,5" HorizontalAlignment="Center" FontSize="28" FontWeight="Bold" Height="40" ><Run Language="fr-fr" Text="Bienvenue !"/><LineBreak/><Run Language="fr-fr"/></TextBlock>
 
-                <TextBlock FontSize="17" FontWeight="SemiBold" HorizontalAlignment="Center" Text="Log in to your existing account"></TextBlock>
+                <TextBlock FontSize="17" FontWeight="SemiBold" HorizontalAlignment="Center"><Run Language="fr-fr" Text="Connectez-vous"/></TextBlock>
 
-                <TextBox Margin="0,50,0,0" Text="" x:Name="tbx_user" Width="300" FontSize="18" materialDesign:HintAssist.Hint="Enter Username" BorderThickness="2" BorderBrush="{DynamicResource MaterialDesignDivider}"  Style="{StaticResource MaterialDesignOutlinedTextBox}" />
+                <TextBox Margin="0,50,0,0" Text="" x:Name="tbx_user" Width="300" FontSize="18" materialDesign:HintAssist.Hint="Entrez votre nom d'utilisateur" BorderThickness="2" BorderBrush="{DynamicResource MaterialDesignDivider}"  Style="{StaticResource MaterialDesignOutlinedTextBox}" KeyDown="tbx_user_KeyDown" />
 
-                <PasswordBox Margin="0,20,0,0" x:Name="tbx_password" Width="300" FontSize="18" materialDesign:HintAssist.Hint="Enter Password" BorderThickness="2" BorderBrush="{DynamicResource MaterialDesignDivider}" Style="{StaticResource MaterialDesignOutlinedPasswordBox}"/>
+                <PasswordBox Margin="0,20,0,0" x:Name="tbx_password" Width="300" FontSize="18" materialDesign:HintAssist.Hint="Entrez votre mot de passe" BorderThickness="2" BorderBrush="{DynamicResource MaterialDesignDivider}" Style="{StaticResource MaterialDesignOutlinedPasswordBox}" KeyDown="tbx_password_KeyDown"/>
 
-                <Button  Margin="0,20,0,0" x:Name="loginBtn" Style="{StaticResource MaterialDesignFlatMidBgButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" Height="53" Width="300" materialDesign:ButtonAssist.CornerRadius="10" FontSize="18" Content="LOG IN" Click="loginBtn_Click"></Button>
+                <Button  Margin="0,20,0,0" x:Name="loginBtn" Style="{StaticResource MaterialDesignFlatMidBgButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" Height="53" Width="300" materialDesign:ButtonAssist.CornerRadius="10" FontSize="18" Content="Se connecter" Click="loginBtn_Click"/>
 
-                <Button Margin="0,20,0,0" x:Name="signupBtn" Style="{StaticResource MaterialDesignFlatButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" Height="53" Width="300" materialDesign:ButtonAssist.CornerRadius="10" FontSize="18" Content="Create Account"></Button>
+                <Button Margin="0,20,0,0" x:Name="signupBtn" Style="{StaticResource MaterialDesignFlatButton}" materialDesign:ShadowAssist.ShadowDepth="Depth0" Height="53" Width="300" materialDesign:ButtonAssist.CornerRadius="10" FontSize="18" Content="Nouvelle utilisateur ?"/>
 
 
             </StackPanel>
