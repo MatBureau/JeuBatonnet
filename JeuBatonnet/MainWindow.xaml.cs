@@ -39,6 +39,7 @@ namespace JeuBatonnet
                     partietrouvee.Joueur2 = VariablesGlobales.Joueur;
                     partietrouvee.Joueur2Id = VariablesGlobales.Joueur.JoueurId;
                     partietrouvee.EnCours = true;
+                    PartieService.PlayerJoinedGame(partietrouvee);
                     FEN_EcranDeJeu game = new FEN_EcranDeJeu(partietrouvee);
                     game.Show();
                 }

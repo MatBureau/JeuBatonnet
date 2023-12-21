@@ -67,3 +67,6 @@ C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_EcranDeJeu.g.cs
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_EcranDeJeu.baml
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\Login.g.cs
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\App.baml
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\Login.baml
