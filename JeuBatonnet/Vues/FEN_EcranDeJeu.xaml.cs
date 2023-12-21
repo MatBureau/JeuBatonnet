@@ -14,6 +14,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace JeuBatonnet.Vues
 {
@@ -24,6 +25,7 @@ namespace JeuBatonnet.Vues
     {
         public Partie PartieEnCours { get; set; }
         public int Compteur { get; set; }
+        private DispatcherTimer timer;
         public FEN_EcranDeJeu(Partie p_partie)
         {
             InitializeComponent();
@@ -39,8 +41,23 @@ namespace JeuBatonnet.Vues
             {
                 LBL_JoueurActif.Content = "Au tour de votre adversaire.";
             }
+            // timer qui va check si un deuxième joueur rejoins
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += Timer_Tick;
+            timer.Start();
         }
-
+        public void Timer_Tick(object sender, EventArgs e)
+        {
+            if (PartieEnCours.TourJoueurId == VariablesGlobales.Joueur.JoueurId)
+            {
+                LBL_JoueurActif.Content = "A vous de jouer ! ";
+            }
+            else
+            {
+                LBL_JoueurActif.Content = "Au tour de votre adversaire.";
+            }
+        }
         private void CreerBoutonsDansStackPanel(int nombreDeBoutons)
         {
             for (int i = 0; i < nombreDeBoutons; i++)
