@@ -2885,23 +2885,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mathi\\.nuget\\packages\\": {},
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathi\\Documents\\GitHub\\JeuBatonnet\\JeuBatonnet\\JeuBatonnet.csproj",
+      "projectUniqueName": "D:\\Cours\\JeuBatoonet\\JeuBatonnet\\JeuBatonnet\\JeuBatonnet.csproj",
       "projectName": "JeuBatonnet",
-      "projectPath": "C:\\Users\\mathi\\Documents\\GitHub\\JeuBatonnet\\JeuBatonnet\\JeuBatonnet.csproj",
-      "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathi\\Documents\\GitHub\\JeuBatonnet\\JeuBatonnet\\obj\\",
+      "projectPath": "D:\\Cours\\JeuBatoonet\\JeuBatonnet\\JeuBatonnet\\JeuBatonnet.csproj",
+      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
+      "outputPath": "D:\\Cours\\JeuBatoonet\\JeuBatonnet\\JeuBatonnet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2965,7 +2965,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
