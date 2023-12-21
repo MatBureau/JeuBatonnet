@@ -1,4 +1,5 @@
 ﻿using JeuBatonnet.Models;
+using JeuBatonnet.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,64 @@ namespace JeuBatonnet.Vues
         {
             InitializeComponent();
             PartieEnCours = p_partie;
+            CreerBoutonsDansStackPanel(PartieEnCours.NbBatonnet);
+            if(PartieEnCours.TourJoueurId == VariablesGlobales.Joueur.JoueurId)
+            {
+                LBL_JoueurActif.Content = "A vous de jouer ! ";
+            }
+            else
+            {
+                LBL_JoueurActif.Content = "Au tour de votre adversaire.";
+            }
+        }
+
+        private void CreerBoutonsDansStackPanel(int nombreDeBoutons)
+        {
+            for (int i = 0; i < nombreDeBoutons; i++)
+            {
+                if(i < 10)
+                {
+                    Button nouveauBouton = new Button
+                    {
+                        Content = $"Bouton {i + 1}",
+                        Width = 100,
+                        Height = 30,
+                        Margin = new Thickness(5)
+                    };
+                    Stack1.Children.Add(nouveauBouton);
+                }
+                else
+                {
+                    Button nouveauBouton = new Button
+                    {
+                        Content = $"Bouton {i + 1}",
+                        Width = 100,
+                        Height = 30,
+                        Margin = new Thickness(5)
+                    };
+                    Stack2.Children.Add(nouveauBouton);
+                }
+            }
+        }
+
+        private void Row_one_btn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Row_three_btn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Row_two_btn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void EndTurn_btn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -28,15 +28,6 @@ namespace JeuBatonnet.Vues
         public FEN_SalleAttente()
         {
             InitializeComponent();
-            //Joueur j = new Joueur();
-            //j.Nom = "Bureau";
-            //j.Prenom = "Mathis";
-            //j.Email = "mathisbureau@gmail.com";
-            //j.Telephone = "0781535231";
-            //j.MotDePasse = "1234";
-            //j.Pseudo = "blipbloup";
-            //j.DateNaissance = DateTime.Now;
-            //VariablesGlobales.Joueur = j;
 
             Partie nouvellePartie = new Partie();
             nouvellePartie.NbBatonnet = GenererNombreBatonnets();
@@ -49,9 +40,9 @@ namespace JeuBatonnet.Vues
             partieID = nouvellePartie.PartieId;
             LBL_IDPartie.Content = "ID de partie : " + nouvellePartie.PartieId;
 
-            // Initialiser et démarrer le timer
+            // timer qui va check si un deuxième joueur rejoins
             timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(1); // Interval de 1 seconde
+            timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += Timer_Tick;
             timer.Start();
         }

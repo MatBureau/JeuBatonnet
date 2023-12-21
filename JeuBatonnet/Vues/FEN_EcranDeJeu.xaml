@@ -7,6 +7,54 @@
         mc:Ignorable="d"
         Title="FEN_EcranDeJeu" Height="450" Width="800">
     <Grid>
-        
+        <Grid x:Name="Game" Visibility="Visible">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75*" />
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="40*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel x:Name="StackBatonnets" Grid.Column="0" Background="Coral">
+                <Grid x:Name="GRD_Stack">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*" />
+                        <ColumnDefinition Width="50*" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel x:Name="Stack1" Grid.Column="0">
+                        
+                    </StackPanel>
+                    <StackPanel x:Name="Stack2" Grid.Column="1">
+
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Background="CadetBlue">
+                <Button x:Name="endTurn_btn"
+                        Click="EndTurn_btn_Click"
+                        Margin="10 20">Fin du tour</Button>
+                <Label x:Name="LBL_JoueurActif"
+                        Margin="10 0"></Label>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <Label FontSize="16" FontWeight="Bold" FontStyle="Italic">Règles du jeu:</Label>
+                <TextBox TextWrapping="Wrap" IsHitTestVisible="False">1.Chaque joueur peut prendre entre 1 et 3 batonnets</TextBox>
+                <TextBox TextWrapping="Wrap" IsHitTestVisible="False">2.Les joueurs jouent l'un après l'autre</TextBox>
+                <TextBox TextWrapping="Wrap" IsHitTestVisible="False">4.Le joueur qui prend le dernier batonnet perds la partie</TextBox>
+                <TextBox TextWrapping="Wrap" IsHitTestVisible="False">*L'ordinateur joue automatiquement et passe seul son tour en mode "contre l'IA"</TextBox>
+            </StackPanel>
+        </Grid>
+
+        <Grid x:Name="EndScreen"
+              Background="Coral"
+              Visibility="Hidden">
+            <StackPanel>
+                <Label x:Name="Win_Announce"
+                       HorizontalAlignment="Center"
+                       FontSize="40"
+                       FontWeight="Bold"
+                       Margin="10 50">Test Content</Label>
+                <Label FontSize="24"
+                       HorizontalAlignment="Center">Play Again?</Label>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
