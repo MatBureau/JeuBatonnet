@@ -40,6 +40,7 @@ C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\System.Memory.Data.dll
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\System.Runtime.Caching.dll
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\WpfAnimatedGif.dll
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -49,6 +50,7 @@ C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet.csproj.AssemblyReference.cache
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\fenetre_inscription.g.cs
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_EcranDeJeu.g.cs
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_SalleAttente.g.cs
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\Login.g.cs
@@ -57,6 +59,7 @@ C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet_MarkupCompile.lref
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\App.baml
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\fenetre_inscription.baml
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_EcranDeJeu.baml
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_SalleAttente.baml
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\Login.baml

@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\full.gif" />
     <None Remove="ImageTempo\full.gif" />
   </ItemGroup>
 
@@ -26,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\full.gif" />
     <Resource Include="ImageTempo\full.gif" />
   </ItemGroup>
 

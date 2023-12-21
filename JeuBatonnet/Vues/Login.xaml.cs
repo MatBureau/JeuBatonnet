@@ -79,5 +79,11 @@ namespace JeuBatonnet.Vues
                 loginBtn_Click(sender, e);
             }
         }
+
+        private void signupBtn_Click(object sender, RoutedEventArgs e)
+        {
+            fenetre_inscription insc = new fenetre_inscription();
+            insc.Show();
+        }
     }
 }

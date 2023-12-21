@@ -13,11 +13,7 @@
             <RowDefinition Height="152*"/>
         </Grid.RowDefinitions>
 
-
-        <StackPanel Grid.Row="0">
-            <Image gif:ImageBehavior.AnimatedSource="C:\Users\franc\Documents\GitHub\JeuBatonnet\JeuBatonnet\ImageTempo\full.gif"
-                   Width="200" Height="200" />
-        </StackPanel>
+        <Image gif:ImageBehavior.AnimatedSource="..\images\full.gif" Margin="462,46,79,5" Grid.Row="1"/>
         <TextBox x:Name="TBX_Prenom" HorizontalAlignment="Left" Margin="150,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="22"/>
         <Label Content="Prénom" HorizontalAlignment="Left" Margin="64,34,0,0" VerticalAlignment="Top"/>
         <Label Content="Nom" HorizontalAlignment="Left" Margin="67,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.347,0.448"/>
@@ -34,5 +30,5 @@
         <Label Content="Adresse Mail" HorizontalAlignment="Left" Margin="52,63,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.468,-0.118" Grid.Row="1"/>
         <PasswordBox x:Name="TBX_Mdp" Margin="150,221,479,49" Grid.Row="1"/>
     </Grid>
-  
+
 </Window>
