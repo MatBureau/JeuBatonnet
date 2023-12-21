@@ -1,9 +1,11 @@
 ﻿using JeuBatonnet.DAL;
 using JeuBatonnet.Models;
 using JeuBatonnet.Utils;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,6 +27,13 @@ namespace JeuBatonnet.Vues
         public Login()
         {
             InitializeComponent();
+            BitmapImage logo = new BitmapImage();
+            logo.BeginInit();
+            var path = System.IO.Path.Combine(Environment.CurrentDirectory, "Assets","Images", "logo.png");
+            var uri = new Uri(path);
+            logo.UriSource = uri;
+            logo.EndInit();
+            img_logo.Source = logo;
         }
 
         private void loginBtn_Click(object sender, RoutedEventArgs e)
@@ -49,5 +58,26 @@ namespace JeuBatonnet.Vues
                 MessageBox.Show("Identifiant ou mot de passe incorrect.");
             }
         }
+
+        private void btn_exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void tbx_password_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                loginBtn_Click(sender, e);
+            }
+        }
+
+        private void tbx_user_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                loginBtn_Click(sender, e);
+            }
+        }
     }
- }
+}

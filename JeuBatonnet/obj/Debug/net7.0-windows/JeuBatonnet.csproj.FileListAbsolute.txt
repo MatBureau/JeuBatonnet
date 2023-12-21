@@ -45,12 +45,10 @@ D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\runtimes\w
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet.csproj.AssemblyReference.cache
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\MainWindow.g.cs
-D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\connexion.g.cs
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\App.g.cs
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet_MarkupCompile.cache
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet_MarkupCompile.lref
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\MainWindow.baml
-D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\connexion.baml
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet.g.resources
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet.GeneratedMSBuildEditorConfig.editorconfig
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet.AssemblyInfoInputs.cache
@@ -69,3 +67,4 @@ D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\MaterialDe
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\App.baml
 D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\Login.baml
+D:\Cours\JeuBatoonet\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\Assets\Images\logo.png
