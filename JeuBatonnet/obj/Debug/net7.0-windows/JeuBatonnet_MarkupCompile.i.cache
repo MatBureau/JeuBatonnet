@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\App.xaml
-11407045341
+32111558644
 
-10-1653665423
-22647130508
-MainWindow.xaml;
+15104894628
+2291257445189
+MainWindow.xaml;Vues\FEN_EcranDeJeu.xaml;Vues\FEN_SalleAttente.xaml;
 
 False
 

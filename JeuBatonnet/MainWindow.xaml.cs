@@ -1,4 +1,8 @@
-﻿using System;
+﻿using JeuBatonnet.DAL;
+using JeuBatonnet.Models;
+using JeuBatonnet.Utils;
+using JeuBatonnet.Vues;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +27,28 @@ namespace JeuBatonnet
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BTN_SearchGame_Click(object sender, RoutedEventArgs e)
+        {
+            if(!String.IsNullOrEmpty(TBX_CodePartie.Text))
+            {
+                Partie partietrouvee =  PartieService.SelectPartieByID(int.Parse(TBX_CodePartie.Text));
+                if(partietrouvee != null )
+                {
+                    partietrouvee.Joueur2 = VariablesGlobales.Joueur;
+                    partietrouvee.Joueur2Id = VariablesGlobales.Joueur.JoueurId;
+                    partietrouvee.EnCours = true;
+                    FEN_EcranDeJeu game = new FEN_EcranDeJeu(partietrouvee);
+                    game.Show();
+                }
+            }
+        }
+
+        private void BTN_CreateGame_Click(object sender, RoutedEventArgs e)
+        {
+            FEN_SalleAttente salle = new FEN_SalleAttente();
+            salle.Show();
         }
     }
 }

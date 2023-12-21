@@ -1,0 +1,14 @@
+﻿<Window x:Class="JeuBatonnet.Vues.FEN_SalleAttente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JeuBatonnet.Vues"
+        mc:Ignorable="d"
+        Title="FEN_SalleAttente" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="LBL_IDPartie" Content="Id Partie :" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Width="181" FontSize="18"/>
+        <Label Content="En attente d'un autre joueur" HorizontalAlignment="Center" VerticalAlignment="Center" Height="63" Width="604" FontSize="36" FontFamily="Cascadia Code"/>
+
+    </Grid>
+</Window>

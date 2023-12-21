@@ -60,3 +60,10 @@ C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet.pdb
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\JeuBatonnet.genruntimeconfig.cache
 C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\ref\JeuBatonnet.dll
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_SalleAttente.g.cs
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_SalleAttente.baml
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\MaterialDesignColors.dll
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_EcranDeJeu.g.cs
+C:\Users\mathi\Documents\GitHub\JeuBatonnet\JeuBatonnet\obj\Debug\net7.0-windows\Vues\FEN_EcranDeJeu.baml
