@@ -47,7 +47,7 @@
           "dependencies": {
             "MaterialDesignThemes": {
               "target": "Package",
-              "version": "[5.0.0-ci484, )"
+              "version": "[4.9.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

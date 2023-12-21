@@ -7,10 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+
     <Compile Update="Vues\FEN_EcranDeJeu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Vues\FEN_SalleAttente.xaml.cs">
+    <Compile Update="Vues\Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -22,6 +24,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Vues\FEN_SalleAttente.xaml">
+    <Page Update="Vues\Login.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
